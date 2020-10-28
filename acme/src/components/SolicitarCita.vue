@@ -49,7 +49,14 @@
           <input type="text" class="form-control" placeholder="usuario@ejemplo.com" aria-label="Sizing example input"
             aria-describedby="inputGroup-sizing-default"/>
         </div>
-        <button class="btn btn-primary btn-block mb-4">Solicitar Cita</button>
+        <div class="row">
+          <div class="col-lg-6">
+              <button class="btn btn-primary btn-block mb-4">Volver</button>
+          </div>
+          <div class="col-lg-6">
+              <button class="btn btn-primary btn-block mb-4">Solicitar Cita</button>
+          </div>
+        </div>
       </form>
     </div>
   </div>

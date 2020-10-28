@@ -1,17 +1,18 @@
 <template>
-<v-app>
-  <v-app-bar app flat>
-    <Header/>
-  </v-app-bar>
+  <div>
+    <div>
+      <Header/>
+    </div>
     
-  <v-body>
-    <SolicitarCita/>
-  </v-body>
-  
-  <v-footer>
-    <Footer/>
-  </v-footer>
-</v-app>
+    <div>
+      <VistaAdmin/>
+    </div>
+
+    <div>
+      <Footer/>
+    </div>
+  </div>
+
 </template>
 
 <script>
@@ -20,17 +21,15 @@ import Index from "./components/Index.vue";
 import Footer from "./components/Footer";
 import SolicitarCita from "./components/SolicitarCita.vue";
 import SeleccionCita from "./components/SeleccionCita.vue";
+import VistaAdmin from "./components/VistaAdmin.vue";
 
 export default {
   data() {
     return {
 
-    };
+    }
   },
-  created() {
-
-  },
-  methods() {
+  methods: {
     
   },
   components: {
@@ -39,8 +38,9 @@ export default {
     Footer,
     SolicitarCita,
     SeleccionCita,
+    VistaAdmin,
   },
-};
+}
 </script>
 
 <style>
@@ -48,6 +48,6 @@ export default {
    margin: auto;
  }
  *{
-   font-family: 'Capriola', sans-serif;
+   font-family: 'Mukta', sans-serif;
  }
 </style>
